@@ -1,0 +1,91 @@
+{
+  "id": "3c39931a",
+  "name": "MercuryMart",
+  "iban": "TR920006296918516261323215",
+  "discount": {
+    "minTransactions": 57,
+    "feeDiscountPercentage": 5
+  },
+  "transactions": [
+    {
+      "amount": 61213,
+      "fee": 497
+    },
+    {
+      "amount": 30813,
+      "fee": 168
+    },
+    {
+      "amount": 54554,
+      "fee": 332
+    },
+    {
+      "amount": 17431,
+      "fee": 137
+    },
+    {
+      "amount": 52821,
+      "fee": 447
+    },
+    {
+      "amount": 52019,
+      "fee": 304
+    },
+    {
+      "amount": 40136,
+      "fee": 213
+    },
+    {
+      "amount": 67128,
+      "fee": 604
+    },
+    {
+      "amount": 19813,
+      "fee": 198
+    },
+    {
+      "amount": 27986,
+      "fee": 252
+    },
+    {
+      "amount": 52462,
+      "fee": 310
+    },
+    {
+      "amount": 31214,
+      "fee": 232
+    },
+    {
+      "amount": 8521,
+      "fee": 61
+    },
+    {
+      "amount": 58756,
+      "fee": 493
+    },
+    {
+      "amount": 18065,
+      "fee": 129
+    },
+    {
+      "amount": 1401,
+      "fee": 9
+    },
+    {
+      "amount": 53792,
+      "fee": 326
+    },
+    {
+      "amount": 43313,
+      "fee": 412
+    },
+    {
+      "amount": 10975,
+      "fee": 101
+    },
+    {
+      "amount": 2470,
+      "fee": 21
+    }
+  ]
+}

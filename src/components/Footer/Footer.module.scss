@@ -1,0 +1,6 @@
+@use '../../styles/palette.scss' as colours;
+
+.footer {
+    padding: 15px;
+    background-color: colours.$ashGrey
+}

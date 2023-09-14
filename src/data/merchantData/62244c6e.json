@@ -1,0 +1,87 @@
+{
+  "id": "62244c6e",
+  "name": "SnapsHut",
+  "iban": "GB56BARC20040424575824",
+  "discount": {
+    "minTransactions": 10,
+    "feeDiscountPercentage": 5
+  },
+  "transactions": [
+    {
+      "amount": 54617,
+      "fee": 530
+    },
+    {
+      "amount": 967,
+      "fee": 5
+    },
+    {
+      "amount": 60669,
+      "fee": 372
+    },
+    {
+      "amount": 69148,
+      "fee": 519
+    },
+    {
+      "amount": 9945,
+      "fee": 59
+    },
+    {
+      "amount": 64079,
+      "fee": 405
+    },
+    {
+      "amount": 10816,
+      "fee": 72
+    },
+    {
+      "amount": 65498,
+      "fee": 507
+    },
+    {
+      "amount": 46388,
+      "fee": 246
+    },
+    {
+      "amount": 3702,
+      "fee": 21
+    },
+    {
+      "amount": 51804,
+      "fee": 475
+    },
+    {
+      "amount": 4033,
+      "fee": 28
+    },
+    {
+      "amount": 59368,
+      "fee": 424
+    },
+    {
+      "amount": 13208,
+      "fee": 94
+    },
+    {
+      "amount": 9803,
+      "fee": 79
+    },
+    {
+      "amount": 22115,
+      "fee": 111
+    },
+    {
+      "amount": 36729,
+      "fee": 233
+    },
+    {
+      "amount": 13849,
+      "fee": 78
+    },
+    {
+      "amount": 43076,
+      "fee": 422
+    }
+  ]
+}

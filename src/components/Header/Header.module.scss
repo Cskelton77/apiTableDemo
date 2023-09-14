@@ -1,0 +1,11 @@
+
+@use '../../styles/palette.scss' as colours;
+
+.header {
+    background-color: colours.$feldgrau;
+    color: colours.$white;
+    padding: 20px;
+    margin: 0 0 2px 0;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}

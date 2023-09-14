@@ -1,0 +1,311 @@
+{
+  "id": "5bce59ea",
+  "name": "Shopiko",
+  "iban": "TG66294687659766622476343244",
+  "discount": {
+    "minTransactions": 97,
+    "feeDiscountPercentage": 9
+  },
+  "transactions": [
+    {
+      "amount": 51589,
+      "fee": 482
+    },
+    {
+      "amount": 3198,
+      "fee": 27
+    },
+    {
+      "amount": 60356,
+      "fee": 434
+    },
+    {
+      "amount": 57631,
+      "fee": 289
+    },
+    {
+      "amount": 22989,
+      "fee": 216
+    },
+    {
+      "amount": 22267,
+      "fee": 178
+    },
+    {
+      "amount": 68426,
+      "fee": 438
+    },
+    {
+      "amount": 1049,
+      "fee": 5
+    },
+    {
+      "amount": 68856,
+      "fee": 378
+    },
+    {
+      "amount": 61681,
+      "fee": 331
+    },
+    {
+      "amount": 1867,
+      "fee": 17
+    },
+    {
+      "amount": 25064,
+      "fee": 129
+    },
+    {
+      "amount": 16071,
+      "fee": 157
+    },
+    {
+      "amount": 43501,
+      "fee": 252
+    },
+    {
+      "amount": 63092,
+      "fee": 341
+    },
+    {
+      "amount": 21603,
+      "fee": 183
+    },
+    {
+      "amount": 16842,
+      "fee": 104
+    },
+    {
+      "amount": 49991,
+      "fee": 261
+    },
+    {
+      "amount": 7096,
+      "fee": 69
+    },
+    {
+      "amount": 41502,
+      "fee": 226
+    },
+    {
+      "amount": 37533,
+      "fee": 236
+    },
+    {
+      "amount": 42119,
+      "fee": 217
+    },
+    {
+      "amount": 23195,
+      "fee": 138
+    },
+    {
+      "amount": 63209,
+      "fee": 385
+    },
+    {
+      "amount": 47610,
+      "fee": 254
+    },
+    {
+      "amount": 8658,
+      "fee": 56
+    },
+    {
+      "amount": 16711,
+      "fee": 83
+    },
+    {
+      "amount": 37546,
+      "fee": 201
+    },
+    {
+      "amount": 8715,
+      "fee": 54
+    },
+    {
+      "amount": 60724,
+      "fee": 523
+    },
+    {
+      "amount": 23398,
+      "fee": 212
+    },
+    {
+      "amount": 21950,
+      "fee": 186
+    },
+    {
+      "amount": 67625,
+      "fee": 593
+    },
+    {
+      "amount": 60809,
+      "fee": 357
+    },
+    {
+      "amount": 23970,
+      "fee": 136
+    },
+    {
+      "amount": 24482,
+      "fee": 143
+    },
+    {
+      "amount": 25305,
+      "fee": 183
+    },
+    {
+      "amount": 54344,
+      "fee": 372
+    },
+    {
+      "amount": 54830,
+      "fee": 391
+    },
+    {
+      "amount": 35446,
+      "fee": 177
+    },
+    {
+      "amount": 46216,
+      "fee": 398
+    },
+    {
+      "amount": 55224,
+      "fee": 277
+    },
+    {
+      "amount": 42140,
+      "fee": 342
+    },
+    {
+      "amount": 9908,
+      "fee": 64
+    },
+    {
+      "amount": 53047,
+      "fee": 276
+    },
+    {
+      "amount": 34233,
+      "fee": 220
+    },
+    {
+      "amount": 29318,
+      "fee": 163
+    },
+    {
+      "amount": 43653,
+      "fee": 396
+    },
+    {
+      "amount": 39181,
+      "fee": 251
+    },
+    {
+      "amount": 14898,
+      "fee": 109
+    },
+    {
+      "amount": 37564,
+      "fee": 332
+    },
+    {
+      "amount": 7548,
+      "fee": 51
+    },
+    {
+      "amount": 17452,
+      "fee": 107
+    },
+    {
+      "amount": 1912,
+      "fee": 11
+    },
+    {
+      "amount": 49599,
+      "fee": 263
+    },
+    {
+      "amount": 31734,
+      "fee": 228
+    },
+    {
+      "amount": 23226,
+      "fee": 122
+    },
+    {
+      "amount": 2797,
+      "fee": 15
+    },
+    {
+      "amount": 25682,
+      "fee": 168
+    },
+    {
+      "amount": 69397,
+      "fee": 394
+    },
+    {
+      "amount": 30519,
+      "fee": 173
+    },
+    {
+      "amount": 29695,
+      "fee": 294
+    },
+    {
+      "amount": 39345,
+      "fee": 198
+    },
+    {
+      "amount": 45753,
+      "fee": 252
+    },
+    {
+      "amount": 17541,
+      "fee": 91
+    },
+    {
+      "amount": 37456,
+      "fee": 302
+    },
+    {
+      "amount": 53515,
+      "fee": 402
+    },
+    {
+      "amount": 60035,
+      "fee": 312
+    },
+    {
+      "amount": 85,
+      "fee": 0
+    },
+    {
+      "amount": 8674,
+      "fee": 47
+    },
+    {
+      "amount": 19083,
+      "fee": 190
+    },
+    {
+      "amount": 18828,
+      "fee": 94
+    },
+    {
+      "amount": 37659,
+      "fee": 267
+    },
+    {
+      "amount": 65302,
+      "fee": 616
+    },
+    {
+      "amount": 58801,
+      "fee": 520
+    }
+  ]
+}

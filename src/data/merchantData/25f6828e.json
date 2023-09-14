@@ -1,0 +1,79 @@
+{
+  "id": "25f6828e",
+  "name": "DazzleMart",
+  "iban": "NL92RABO4452759149",
+  "discount": {
+    "minTransactions": 46,
+    "feeDiscountPercentage": 4
+  },
+  "transactions": [
+    {
+      "amount": 30197,
+      "fee": 234
+    },
+    {
+      "amount": 41921,
+      "fee": 305
+    },
+    {
+      "amount": 3371,
+      "fee": 17
+    },
+    {
+      "amount": 440,
+      "fee": 2
+    },
+    {
+      "amount": 42881,
+      "fee": 258
+    },
+    {
+      "amount": 56607,
+      "fee": 305
+    },
+    {
+      "amount": 12584,
+      "fee": 85
+    },
+    {
+      "amount": 51601,
+      "fee": 283
+    },
+    {
+      "amount": 10221,
+      "fee": 71
+    },
+    {
+      "amount": 11200,
+      "fee": 97
+    },
+    {
+      "amount": 15936,
+      "fee": 94
+    },
+    {
+      "amount": 67395,
+      "fee": 352
+    },
+    {
+      "amount": 19788,
+      "fee": 135
+    },
+    {
+      "amount": 986,
+      "fee": 7
+    },
+    {
+      "amount": 360,
+      "fee": 1
+    },
+    {
+      "amount": 39489,
+      "fee": 303
+    },
+    {
+      "amount": 48960,
+      "fee": 273
+    }
+  ]
+}

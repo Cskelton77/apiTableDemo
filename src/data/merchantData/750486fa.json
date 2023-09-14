@@ -1,0 +1,15 @@
+{
+  "id": "750486fa",
+  "name": "TurnShop",
+  "iban": "BE42954381948154",
+  "discount": {
+    "minTransactions": 63,
+    "feeDiscountPercentage": 5
+  },
+  "transactions": [
+    {
+      "amount": 43349,
+      "fee": 220
+    }
+  ]
+}

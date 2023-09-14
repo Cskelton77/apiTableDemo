@@ -1,0 +1,63 @@
+{
+  "id": "cf6d48a8",
+  "name": "AccessoriesAvenue",
+  "iban": "ES7804875851013134991983",
+  "discount": {
+    "minTransactions": 13,
+    "feeDiscountPercentage": 3
+  },
+  "transactions": [
+    {
+      "amount": 22915,
+      "fee": 119
+    },
+    {
+      "amount": 42873,
+      "fee": 234
+    },
+    {
+      "amount": 56073,
+      "fee": 438
+    },
+    {
+      "amount": 6688,
+      "fee": 34
+    },
+    {
+      "amount": 58331,
+      "fee": 452
+    },
+    {
+      "amount": 53358,
+      "fee": 476
+    },
+    {
+      "amount": 61593,
+      "fee": 353
+    },
+    {
+      "amount": 20898,
+      "fee": 172
+    },
+    {
+      "amount": 66160,
+      "fee": 416
+    },
+    {
+      "amount": 35943,
+      "fee": 246
+    },
+    {
+      "amount": 57936,
+      "fee": 536
+    },
+    {
+      "amount": 64332,
+      "fee": 340
+    },
+    {
+      "amount": 10171,
+      "fee": 62
+    }
+  ]
+}

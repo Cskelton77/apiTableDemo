@@ -1,0 +1,59 @@
+{
+  "id": "81751bd4",
+  "name": "VisualOutlet",
+  "iban": "FI1148968359149487",
+  "discount": {
+    "minTransactions": 60,
+    "feeDiscountPercentage": 3
+  },
+  "transactions": [
+    {
+      "amount": 34498,
+      "fee": 310
+    },
+    {
+      "amount": 3774,
+      "fee": 24
+    },
+    {
+      "amount": 18178,
+      "fee": 143
+    },
+    {
+      "amount": 5944,
+      "fee": 42
+    },
+    {
+      "amount": 15938,
+      "fee": 141
+    },
+    {
+      "amount": 32375,
+      "fee": 182
+    },
+    {
+      "amount": 46760,
+      "fee": 259
+    },
+    {
+      "amount": 36163,
+      "fee": 256
+    },
+    {
+      "amount": 20165,
+      "fee": 140
+    },
+    {
+      "amount": 47777,
+      "fee": 261
+    },
+    {
+      "amount": 33740,
+      "fee": 234
+    },
+    {
+      "amount": 66294,
+      "fee": 409
+    }
+  ]
+}

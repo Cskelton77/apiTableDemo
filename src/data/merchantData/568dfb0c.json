@@ -1,0 +1,79 @@
+{
+  "id": "568dfb0c",
+  "name": "OnlineCart",
+  "iban": "TG66294687659766622476343244",
+  "discount": {
+    "minTransactions": 24,
+    "feeDiscountPercentage": 1
+  },
+  "transactions": [
+    {
+      "amount": 2485,
+      "fee": 19
+    },
+    {
+      "amount": 58109,
+      "fee": 341
+    },
+    {
+      "amount": 26729,
+      "fee": 257
+    },
+    {
+      "amount": 16134,
+      "fee": 113
+    },
+    {
+      "amount": 31074,
+      "fee": 158
+    },
+    {
+      "amount": 46396,
+      "fee": 269
+    },
+    {
+      "amount": 55900,
+      "fee": 527
+    },
+    {
+      "amount": 52869,
+      "fee": 388
+    },
+    {
+      "amount": 14982,
+      "fee": 75
+    },
+    {
+      "amount": 68924,
+      "fee": 522
+    },
+    {
+      "amount": 41221,
+      "fee": 257
+    },
+    {
+      "amount": 2599,
+      "fee": 13
+    },
+    {
+      "amount": 65544,
+      "fee": 341
+    },
+    {
+      "amount": 34085,
+      "fee": 284
+    },
+    {
+      "amount": 4995,
+      "fee": 30
+    },
+    {
+      "amount": 46278,
+      "fee": 361
+    },
+    {
+      "amount": 56468,
+      "fee": 486
+    }
+  ]
+}

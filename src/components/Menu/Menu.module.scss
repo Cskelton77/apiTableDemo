@@ -1,0 +1,30 @@
+@use '../../styles/palette.scss' as colours;
+
+.menu {
+    padding: 30px;
+    flex: 1;
+    background-color: colours.$feldgrau;
+
+    @media(max-width: 600px){
+        padding: 0;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    li {
+        list-style: none;
+        color: colours.$mintCream;
+        padding: 15px;
+      
+
+        &:hover{
+            background-color: colours.$mintCream;
+            color: colours.$feldgrau;
+            cursor: pointer;
+        }
+        &:nth-child(odd){
+
+        }
+
+    }
+}

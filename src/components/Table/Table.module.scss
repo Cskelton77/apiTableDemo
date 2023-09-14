@@ -1,0 +1,42 @@
+@use '../../styles/palette.scss' as colours;
+
+.transactionTable {
+    flex: 5;
+    color: colours.$feldgrau;
+    thead {
+        background-color: colours.$battleshipGrey;
+        font-size: 18px;
+        th {
+            padding: 8px;
+        }
+        @media(max-width: 600px){
+            th:nth-child(1){
+                display: none;
+            }
+        }
+    }
+    tbody {
+        tr {
+            &:nth-child(odd) {
+                background-color: colours.$mintCream;
+            }
+            &:nth-child(even) {
+                background-color: colours.$ashGrey;
+            }
+            &:hover {
+                background-color: colours.$celadon;
+            }
+            td {
+                font-size: 14px;
+                padding: 8px 4px;
+            }
+            @media(max-width: 600px){
+                td:nth-child(1){
+                    display: none;
+                }
+            }
+        }
+
+    }
+}
+

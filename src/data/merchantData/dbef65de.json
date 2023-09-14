@@ -1,0 +1,47 @@
+{
+  "id": "dbef65de",
+  "name": "BoutiqueBay",
+  "iban": "ES8901824299104941828575",
+  "discount": {
+    "minTransactions": 35,
+    "feeDiscountPercentage": 10
+  },
+  "transactions": [
+    {
+      "amount": 35631,
+      "fee": 214
+    },
+    {
+      "amount": 41621,
+      "fee": 220
+    },
+    {
+      "amount": 7176,
+      "fee": 61
+    },
+    {
+      "amount": 28874,
+      "fee": 199
+    },
+    {
+      "amount": 13398,
+      "fee": 86
+    },
+    {
+      "amount": 14164,
+      "fee": 100
+    },
+    {
+      "amount": 47755,
+      "fee": 276
+    },
+    {
+      "amount": 27530,
+      "fee": 140
+    },
+    {
+      "amount": 49725,
+      "fee": 320
+    }
+  ]
+}

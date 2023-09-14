@@ -1,0 +1,411 @@
+{
+  "id": "310cdf1a",  
+  "name": "FashionLoom",
+  "iban": "MT75LUCS94438239685631534265696",
+  "discount": {
+    "minTransactions": 25,
+    "feeDiscountPercentage": 4
+  },
+  "transactions": [
+    {
+      "amount": 23198,
+      "fee": 190
+    },
+    {
+      "amount": 10470,
+      "fee": 67
+    },
+    {
+      "amount": 20715,
+      "fee": 119
+    },
+    {
+      "amount": 1252,
+      "fee": 11
+    },
+    {
+      "amount": 44785,
+      "fee": 373
+    },
+    {
+      "amount": 10938,
+      "fee": 102
+    },
+    {
+      "amount": 48737,
+      "fee": 329
+    },
+    {
+      "amount": 12019,
+      "fee": 79
+    },
+    {
+      "amount": 69169,
+      "fee": 684
+    },
+    {
+      "amount": 14589,
+      "fee": 108
+    },
+    {
+      "amount": 20916,
+      "fee": 172
+    },
+    {
+      "amount": 61837,
+      "fee": 618
+    },
+    {
+      "amount": 48766,
+      "fee": 443
+    },
+    {
+      "amount": 3228,
+      "fee": 30
+    },
+    {
+      "amount": 6487,
+      "fee": 48
+    },
+    {
+      "amount": 7870,
+      "fee": 56
+    },
+    {
+      "amount": 33624,
+      "fee": 300
+    },
+    {
+      "amount": 53580,
+      "fee": 309
+    },
+    {
+      "amount": 31139,
+      "fee": 308
+    },
+    {
+      "amount": 62321,
+      "fee": 375
+    },
+    {
+      "amount": 2758,
+      "fee": 25
+    },
+    {
+      "amount": 42405,
+      "fee": 227
+    },
+    {
+      "amount": 48608,
+      "fee": 344
+    },
+    {
+      "amount": 48343,
+      "fee": 451
+    },
+    {
+      "amount": 64037,
+      "fee": 598
+    },
+    {
+      "amount": 64114,
+      "fee": 538
+    },
+    {
+      "amount": 40624,
+      "fee": 376
+    },
+    {
+      "amount": 30759,
+      "fee": 212
+    },
+    {
+      "amount": 37150,
+      "fee": 236
+    },
+    {
+      "amount": 2381,
+      "fee": 15
+    },
+    {
+      "amount": 14144,
+      "fee": 103
+    },
+    {
+      "amount": 2617,
+      "fee": 18
+    },
+    {
+      "amount": 23573,
+      "fee": 127
+    },
+    {
+      "amount": 20097,
+      "fee": 116
+    },
+    {
+      "amount": 52606,
+      "fee": 365
+    },
+    {
+      "amount": 31368,
+      "fee": 181
+    },
+    {
+      "amount": 37683,
+      "fee": 330
+    },
+    {
+      "amount": 8955,
+      "fee": 56
+    },
+    {
+      "amount": 31866,
+      "fee": 222
+    },
+    {
+      "amount": 20263,
+      "fee": 145
+    },
+    {
+      "amount": 34565,
+      "fee": 217
+    },
+    {
+      "amount": 20462,
+      "fee": 146
+    },
+    {
+      "amount": 13979,
+      "fee": 105
+    },
+    {
+      "amount": 34171,
+      "fee": 207
+    },
+    {
+      "amount": 7636,
+      "fee": 40
+    },
+    {
+      "amount": 64828,
+      "fee": 527
+    },
+    {
+      "amount": 52876,
+      "fee": 275
+    },
+    {
+      "amount": 1992,
+      "fee": 10
+    },
+    {
+      "amount": 44001,
+      "fee": 254
+    },
+    {
+      "amount": 56197,
+      "fee": 300
+    },
+    {
+      "amount": 18078,
+      "fee": 165
+    },
+    {
+      "amount": 39978,
+      "fee": 254
+    },
+    {
+      "amount": 9341,
+      "fee": 58
+    },
+    {
+      "amount": 4318,
+      "fee": 23
+    },
+    {
+      "amount": 27841,
+      "fee": 159
+    },
+    {
+      "amount": 14185,
+      "fee": 72
+    },
+    {
+      "amount": 17679,
+      "fee": 103
+    },
+    {
+      "amount": 45081,
+      "fee": 433
+    },
+    {
+      "amount": 65700,
+      "fee": 373
+    },
+    {
+      "amount": 14119,
+      "fee": 105
+    },
+    {
+      "amount": 19449,
+      "fee": 188
+    },
+    {
+      "amount": 36112,
+      "fee": 185
+    },
+    {
+      "amount": 60963,
+      "fee": 340
+    },
+    {
+      "amount": 7758,
+      "fee": 43
+    },
+    {
+      "amount": 44363,
+      "fee": 414
+    },
+    {
+      "amount": 56248,
+      "fee": 506
+    },
+    {
+      "amount": 15512,
+      "fee": 122
+    },
+    {
+      "amount": 26303,
+      "fee": 199
+    },
+    {
+      "amount": 34538,
+      "fee": 302
+    },
+    {
+      "amount": 37367,
+      "fee": 247
+    },
+    {
+      "amount": 17629,
+      "fee": 167
+    },
+    {
+      "amount": 30167,
+      "fee": 166
+    },
+    {
+      "amount": 58113,
+      "fee": 296
+    },
+    {
+      "amount": 44542,
+      "fee": 229
+    },
+    {
+      "amount": 48879,
+      "fee": 287
+    },
+    {
+      "amount": 32418,
+      "fee": 182
+    },
+    {
+      "amount": 23740,
+      "fee": 182
+    },
+    {
+      "amount": 6677,
+      "fee": 57
+    },
+    {
+      "amount": 6555,
+      "fee": 40
+    },
+    {
+      "amount": 28156,
+      "fee": 270
+    },
+    {
+      "amount": 854,
+      "fee": 5
+    },
+    {
+      "amount": 8634,
+      "fee": 71
+    },
+    {
+      "amount": 38009,
+      "fee": 196
+    },
+    {
+      "amount": 56399,
+      "fee": 414
+    },
+    {
+      "amount": 25741,
+      "fee": 218
+    },
+    {
+      "amount": 45343,
+      "fee": 263
+    },
+    {
+      "amount": 28546,
+      "fee": 271
+    },
+    {
+      "amount": 20202,
+      "fee": 188
+    },
+    {
+      "amount": 39619,
+      "fee": 324
+    },
+    {
+      "amount": 39951,
+      "fee": 279
+    },
+    {
+      "amount": 32625,
+      "fee": 187
+    },
+    {
+      "amount": 46566,
+      "fee": 235
+    },
+    {
+      "amount": 37035,
+      "fee": 248
+    },
+    {
+      "amount": 27822,
+      "fee": 195
+    },
+    {
+      "amount": 21400,
+      "fee": 192
+    },
+    {
+      "amount": 19875,
+      "fee": 119
+    },
+    {
+      "amount": 38255,
+      "fee": 296
+    },
+    {
+      "amount": 7503,
+      "fee": 38
+    },
+    {
+      "amount": 50793,
+      "fee": 350
+    },
+    {
+      "amount": 37712,
+      "fee": 319
+    }
+  ]
+}

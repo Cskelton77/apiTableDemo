@@ -1,0 +1,119 @@
+{
+  "id": "6b3eef2a",
+  "name": "SuperShopr",
+  "iban": "TL948566621786786683492",
+  "discount": {
+    "minTransactions": 21,
+    "feeDiscountPercentage": 0
+  },
+  "transactions": [
+    {
+      "amount": 65855,
+      "fee": 334
+    },
+    {
+      "amount": 22409,
+      "fee": 211
+    },
+    {
+      "amount": 45522,
+      "fee": 337
+    },
+    {
+      "amount": 26996,
+      "fee": 215
+    },
+    {
+      "amount": 69808,
+      "fee": 545
+    },
+    {
+      "amount": 32479,
+      "fee": 315
+    },
+    {
+      "amount": 14785,
+      "fee": 84
+    },
+    {
+      "amount": 68092,
+      "fee": 439
+    },
+    {
+      "amount": 45150,
+      "fee": 289
+    },
+    {
+      "amount": 24616,
+      "fee": 133
+    },
+    {
+      "amount": 1762,
+      "fee": 12
+    },
+    {
+      "amount": 15376,
+      "fee": 146
+    },
+    {
+      "amount": 50407,
+      "fee": 278
+    },
+    {
+      "amount": 21850,
+      "fee": 148
+    },
+    {
+      "amount": 52428,
+      "fee": 308
+    },
+    {
+      "amount": 65044,
+      "fee": 335
+    },
+    {
+      "amount": 20865,
+      "fee": 195
+    },
+    {
+      "amount": 37870,
+      "fee": 209
+    },
+    {
+      "amount": 34543,
+      "fee": 255
+    },
+    {
+      "amount": 16331,
+      "fee": 85
+    },
+    {
+      "amount": 39526,
+      "fee": 362
+    },
+    {
+      "amount": 52673,
+      "fee": 280
+    },
+    {
+      "amount": 16931,
+      "fee": 128
+    },
+    {
+      "amount": 825,
+      "fee": 8
+    },
+    {
+      "amount": 38991,
+      "fee": 378
+    },
+    {
+      "amount": 38894,
+      "fee": 388
+    },
+    {
+      "amount": 59813,
+      "fee": 351
+    }
+  ]
+}
