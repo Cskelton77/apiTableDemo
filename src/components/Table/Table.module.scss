@@ -3,20 +3,36 @@
 .transactionTable {
     flex: 5;
     color: colours.$feldgrau;
+    h2 {
+        padding: 15px;
+    }
+
+    table {
+        width: 100%;
+    }
     thead {
+        @media(max-width: 600px){
+            display: none;
+        }
         background-color: colours.$battleshipGrey;
         font-size: 18px;
         th {
             padding: 8px;
         }
-        @media(max-width: 600px){
-            th:nth-child(1){
-                display: none;
-            }
-        }
     }
     tbody {
+        @media(max-width: 600px){
+            display: flex;
+            flex-direction: column;
+        }
         tr {
+            @media(max-width: 600px){
+                width: 95%;
+                margin: 10px auto;
+                box-shadow:5px 5px 4px 1px rgba(0, 0, 0, 0.2);
+                padding: 10px 0;
+            }
+
             &:nth-child(odd) {
                 background-color: colours.$mintCream;
             }
@@ -25,18 +41,39 @@
             }
             &:hover {
                 background-color: colours.$celadon;
+                cursor: pointer;
             }
             td {
                 font-size: 14px;
-                padding: 8px 4px;
-            }
-            @media(max-width: 600px){
-                td:nth-child(1){
+                padding: 16px 8px;
+
+                .header { 
                     display: none;
                 }
+                &.negativeNumber {
+                    color: #f00;
+                }
+
+                @media(max-width: 600px){
+                    display: flex;
+                    padding: 2px 0;
+
+                    .header {
+                        display: inline;
+                        flex: 1;
+                        text-align: right;
+                        padding: 5px 15px;
+                        color: colours.$feldgrau;
+                    }
+                    .data {
+                        text-align: left;
+                        flex: 3;
+                        padding: 5px 15px ;
+                        
+                    }
+                }
+
             }
         }
-
     }
 }
-
