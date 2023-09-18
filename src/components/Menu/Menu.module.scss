@@ -5,6 +5,7 @@
     flex: 1;
     background-color: colours.$feldgrau;
     min-height: 480px;
+    max-width: 330px;
 
     @media(max-width: 600px){
         min-height: 0;

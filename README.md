@@ -1,6 +1,8 @@
 ## API Access and Display
 
-This project is primarily intended to display React and CSS, merely using Next as a convenient way to quickly get a custom API up and running to demonstrate React techniques.
+This project is primarily intended to display React and CSS, merely using Next as a convenient way to quickly get a custom API up and running to demonstrate React techniques. Offers a search function that searches all columns in the table, as well as reponsive design for viewing data on mobile.
+
+View at https://api-table-demo.vercel.app/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
