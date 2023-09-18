@@ -52,7 +52,7 @@ export default function Home() {
         <>
             <Header />
             <div className={styles.pageWrapper}>
-                <Menu links={menuLinks} />                
+                <Menu links={menuLinks} />
                 <Table  tableTitle={"Transactions"} {...transactionsData} />
             </div>
             <Footer />

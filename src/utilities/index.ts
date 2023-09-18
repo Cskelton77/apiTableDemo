@@ -28,7 +28,6 @@ export const prepareMerchantData = (merchantData: MerchantApiResponse): Merchant
     );
   }
 
-  
   currentMerchantTransaction.net = (currentMerchantTransaction.amount - currentMerchantTransaction.fee) / 100;
   currentMerchantTransaction.amount = currentMerchantTransaction.amount / 100;
   currentMerchantTransaction.fee = -(currentMerchantTransaction.fee / 100);
