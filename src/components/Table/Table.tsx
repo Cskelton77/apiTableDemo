@@ -1,16 +1,49 @@
+import { SearchBar } from '@/components'
 import TableRow from "./TableRow"
 import { TableData } from "./Table.interface"
 import styles from './Table.module.scss'
+import { useEffect, useState } from 'react'
+import { MerchantTransaction } from '@/interfaces/MerchantTransaction'
 
-const Table = ({tableTitle, headers, rows}: TableData) => {
+interface TableProps extends TableData {
+    tableTitle?: string,    
+    showSearch?: boolean
+}
+
+const Table = ({tableTitle, headers, rows, showSearch = true}: TableProps) => {
     const isDataLoaded = typeof rows[0] == "object"
     const isDataLengthMatched = isDataLoaded && headers.length == Object.keys(rows[0]).length
+
+    const [filteredRows, setFilteredRows] = useState<Array<MerchantTransaction>>(rows);
+    const [searchTerm, setSearchTerm] = useState<string>('');
+
+    useEffect(() => {
+        if(isDataLengthMatched && showSearch){ 
+           if(!searchTerm){
+                setFilteredRows([...rows]);
+            } else {
+                let newRowSubset: Array<MerchantTransaction> = [];
+                headers.forEach(({ key }) => {
+                    const colSearchResults = rows.filter(
+                        (row) => {
+                            const value: string = row[key as keyof MerchantTransaction].toString().toLowerCase();
+                            return value.includes(searchTerm.toLowerCase())
+                        }
+                    )
+                    newRowSubset = newRowSubset.concat(colSearchResults)
+                })
+                setFilteredRows([...new Set(newRowSubset)])
+            }
+        }
+    }, [rows, searchTerm])
    
     if(isDataLengthMatched){        
        return (
         <div className={styles.transactionTable}>
-            <h2>{tableTitle}</h2>
-            
+            <div className={styles.headerArea}>
+                { tableTitle && <h2>{tableTitle}</h2> }
+                { showSearch && <SearchBar value={searchTerm} searchFunction={(e) => setSearchTerm(e.target.value)} /> }
+            </div>
             <table >
                 <thead>
                     <tr>
@@ -18,9 +51,12 @@ const Table = ({tableTitle, headers, rows}: TableData) => {
                     </tr>
                 </thead>
                 <tbody>
-                        { rows.map((row) => {
-                            return (<TableRow key={row.iban} headers={headers} row={row} />)
+                        { filteredRows.length > 0 && filteredRows.map((row) => {
+                            return (<TableRow key={row.iban + row.merchant} headers={headers} row={row} />)
                         })}
+                        { filteredRows.length == 0 && (
+                            "No transactions match your current search"
+                        )}
                 </tbody>
             </table>
         </div>
