@@ -1,7 +1,13 @@
-.pageWrapper {
+.page {
     display: flex;
+    height: 85%;
     
     @media(max-width: 600px){
         flex-direction: column;
+    }
+
+    .content {
+        flex: 5;
+        overflow: scroll;
     }
 }
