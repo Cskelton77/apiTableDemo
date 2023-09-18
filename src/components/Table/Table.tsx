@@ -37,33 +37,44 @@ const Table = ({tableTitle, headers, rows, showSearch = true}: TableProps) => {
         }
     }, [rows, searchTerm])
    
-    if(isDataLengthMatched){        
-       return (
-        <div className={styles.transactionTable}>
-            <div className={styles.headerArea}>
-                { tableTitle && <h2>{tableTitle}</h2> }
-                { showSearch && <SearchBar value={searchTerm} searchFunction={(e) => setSearchTerm(e.target.value)} /> }
-            </div>
-            <table >
-                <thead>
-                    <tr>
-                        { headers.map((header) =>( <th key={header.header}>{header.header}</th> ))}
-                    </tr>
-                </thead>
-                <tbody>
-                        { filteredRows.length > 0 && filteredRows.map((row) => {
-                            return (<TableRow key={row.iban + row.merchant} headers={headers} row={row} />)
-                        })}
-                        { filteredRows.length == 0 && (
-                            <tr>
-                                <td colSpan={headers.length}>{"No transactions match your current search"}</td>
-                            </tr>
-                        )}
-                </tbody>
-            </table>
+      
+    return (
+    <div className={styles.transactionTable}>
+        <div className={styles.headerArea}>
+            { tableTitle && <h2>{tableTitle}</h2> }
+            { showSearch && isDataLoaded && <SearchBar value={searchTerm} searchFunction={(e) => setSearchTerm(e.target.value)} /> }
         </div>
-        )
-    }
+        <table >
+            {!isDataLoaded && (
+                <tbody>
+                    <tr>
+                        <td colSpan={headers.length}>{"Loading..."}</td>
+                    </tr>
+                </tbody>
+            ) }
+            {isDataLengthMatched && (
+                <>
+                    <thead>
+                        <tr>
+                            { headers.map((header) =>( <th key={header.header}>{header.header}</th> ))}
+                        </tr>
+                    </thead>
+                    <tbody>
+                            { filteredRows.length > 0 && filteredRows.map((row) => {
+                                return (<TableRow key={row.iban + row.merchant} headers={headers} row={row} />)
+                            })}
+                            { filteredRows.length == 0 && (
+                                <tr>
+                                    <td colSpan={headers.length}>{"No transactions match your current search"}</td>
+                                </tr>
+                            )}
+                    </tbody>
+                </>
+            )}
+        </table>
+    </div>
+    )
+    
     return ('header/data mismatch')
 }
 

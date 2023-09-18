@@ -9,6 +9,19 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: sans-serif;
+  @media(min-width: 640px){
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+  }
+  
+}
+#__next {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    @media(max-width: 640px){
+        height: auto;
+    }
 }
 
 a {

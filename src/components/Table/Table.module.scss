@@ -1,10 +1,8 @@
 @use '../../styles/palette.scss' as colours;
 
 .transactionTable {
-    flex: 5;
-    color: colours.$feldgrau;
-
-    .headerArea {
+   
+   .headerArea {
         h2 {
             padding: 15px;
         }
@@ -15,6 +13,7 @@
     
     table {
         width: 100%;
+        margin-top: 15px;
     }
     thead {
         @media(max-width: 600px){
