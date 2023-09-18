@@ -55,7 +55,9 @@ const Table = ({tableTitle, headers, rows, showSearch = true}: TableProps) => {
                             return (<TableRow key={row.iban + row.merchant} headers={headers} row={row} />)
                         })}
                         { filteredRows.length == 0 && (
-                            "No transactions match your current search"
+                            <tr>
+                                <td colSpan={headers.length}>{"No transactions match your current search"}</td>
+                            </tr>
                         )}
                 </tbody>
             </table>
