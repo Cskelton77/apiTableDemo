@@ -1,7 +1,7 @@
 import styles from './Menu.module.scss'
-import { MenuData, MenuItem } from './Menu.interface'
+import { MenuProps, MenuItem } from './Menu.interface'
 
-const Menu = ({links}: MenuData) => {
+const Menu = ({links}: MenuProps) => {
     return (
     <nav className={styles.menu}>
         {links.map((link: MenuItem)=> {

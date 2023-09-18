@@ -1,7 +1,6 @@
 import { MerchantTransaction } from "@/interfaces";
 
 export interface TableData {
-    tableTitle: string,
     headers: Array<Header>,
     rows: Array<MerchantTransaction>
 }

@@ -1,4 +1,4 @@
-interface MenuData {
+interface MenuProps {
     links: Array<MenuItem>
 }
 interface MenuItem {
@@ -7,4 +7,4 @@ interface MenuItem {
     uuid: number,
 }
 
-export type { MenuData, MenuItem }
+export type { MenuProps, MenuItem }

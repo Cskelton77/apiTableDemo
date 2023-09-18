@@ -6,8 +6,15 @@ import styles from '@/styles/index.module.scss'
 
 export default function Home() {
 
+    const menuLinks: Array<MenuItem> = [
+        {uuid: 1, name: "Home", link: "#"}, 
+        {uuid: 2, name: "Financial Table", link: "#"}, 
+        {uuid: 3, name: "About", link: "#"}, 
+        {uuid: 4, name: "Contact", link: "#"}, 
+        {uuid: 5, name: "Log Out", link: "#"}, 
+    ]
+
     const defaultTableData: TableData = {
-        tableTitle: "Transactions",
         headers: [
             {header: "IBAN", key: 'iban'},
             {header: "Merchant", key: 'merchant'},
@@ -16,6 +23,7 @@ export default function Home() {
             {header: "Net", key: 'net'}],
         rows: []
     }
+
     const [transactionsData, setTransactionsData] = useState<TableData>(defaultTableData)
 
     useEffect(() => {
@@ -40,20 +48,12 @@ export default function Home() {
         fetchMerchants()
     }, [])
 
-    const menuLinks: Array<MenuItem> = [
-        {uuid: 1, name: "Home", link: "#"}, 
-        {uuid: 2, name: "Financial Table", link: "#"}, 
-        {uuid: 3, name: "About", link: "#"}, 
-        {uuid: 4, name: "Contact", link: "#"}, 
-        {uuid: 5, name: "Log Out", link: "#"}, 
-    ]
-
     return (
         <>
             <Header />
             <div className={styles.pageWrapper}>
                 <Menu links={menuLinks} />
-                <Table {...transactionsData} />
+                <Table  tableTitle={"Transactions"} {...transactionsData} />
             </div>
             <Footer />
         </>

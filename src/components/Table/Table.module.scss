@@ -3,10 +3,16 @@
 .transactionTable {
     flex: 5;
     color: colours.$feldgrau;
-    h2 {
-        padding: 15px;
-    }
 
+    .headerArea {
+        h2 {
+            padding: 15px;
+        }
+        display: flex;
+        flex-direction: column;
+
+    }
+    
     table {
         width: 100%;
     }
