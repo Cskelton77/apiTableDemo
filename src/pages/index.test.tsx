@@ -1,7 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import user from "@testing-library/user-event";
 import { createServer } from "@/utilities/testUtilities";
-import Home from "./index";
+import Home from "./index.page";
 import { MerchantApiResponse } from "@/interfaces";
 
 describe('The table', () => {
