@@ -24,7 +24,7 @@ const TableRow = ({headers, row}: TableRowData) => {
         <tr>
             {columns.map((column) => {
                 return (
-                    <td key={column.data}>
+                    <td key={column.data} >
                         <span className={styles.header}>{column.header}</span> 
                         <span className={styles.data}>{column.data}</span>
                     </td>

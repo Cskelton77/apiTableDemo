@@ -2,21 +2,24 @@ import { Header, Menu, MenuItem, Footer } from "@/components/"
 import styles from './PageWrapper.module.scss'
 
 interface PageWrapper {
+    title: string,
+    menuLinks?: Array<MenuItem>,
     children: React.ReactNode
 }
-const PageWrapper = ({children}: PageWrapper) => {
 
-    const menuLinks: Array<MenuItem> = [
-        {uuid: 1, name: "Home", link: "#"}, 
-        {uuid: 2, name: "Financial Table", link: "#"}, 
-        {uuid: 3, name: "About", link: "#"}, 
-        {uuid: 4, name: "Contact", link: "#"}, 
-        {uuid: 5, name: "Log Out", link: "#"}, 
-    ]
+const defaultMenuLinks: Array<MenuItem> = [
+    {uuid: 1, name: "Home", link: "/"}, 
+    {uuid: 2, name: "Financial Table", link: "/table"}, 
+    {uuid: 3, name: "About", link: "/about"}, 
+    {uuid: 4, name: "Contact", link: "/contact"}, 
+    {uuid: 5, name: "Log Out", link: "/log-out"}, 
+] 
+
+const PageWrapper = ({title, menuLinks = defaultMenuLinks, children}: PageWrapper) => {
 
     return (
         <>
-            <Header />
+            <Header title={title} />
             <div className={styles.page}>
                 <Menu links={menuLinks} />
                 <span className={styles.content}>
@@ -25,8 +28,7 @@ const PageWrapper = ({children}: PageWrapper) => {
             </div>
             <Footer />
         </>
-    )
-    
+    )    
 }
 
 export default PageWrapper
