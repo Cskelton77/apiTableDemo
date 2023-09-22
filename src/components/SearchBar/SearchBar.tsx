@@ -8,7 +8,11 @@ interface SearchBarProps {
 const SearchBar = ({value, searchFunction}: SearchBarProps) => {
     
     return (
-        <input placeholder={"Search..."} className={styles.searchbar} value={value} onChange={searchFunction} />
+        <>
+         <label htmlFor="searchbar">Searchbar</label>
+         <input id="searchbar" placeholder={"Search..."} className={styles.searchbar} value={value} onChange={searchFunction} />
+
+         </>
     )
 }
 

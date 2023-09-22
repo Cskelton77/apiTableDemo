@@ -1,9 +1,9 @@
 import styles from './Header.module.scss'
 
-const Header = ({}) => {
+const Header = ({title}: { title: string }) => {
     return (
     <div className={styles.header}>
-            Displaying results from an API call
+            <h1>{title}</h1>
     </div>)
 }
 
