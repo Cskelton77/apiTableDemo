@@ -7,13 +7,12 @@ interface SearchBarProps {
 
 const SearchBar = ({value, searchFunction}: SearchBarProps) => {
     
-    return (
-        <>
-         <label htmlFor="searchbar">Searchbar</label>
-         <input id="searchbar" placeholder={"Search..."} className={styles.searchbar} value={value} onChange={searchFunction} />
-
-         </>
-    )
+    return (<input 
+                aria-label="searchbar" 
+                placeholder={"Search..."} 
+                className={styles.searchbar} 
+                value={value} 
+                onChange={searchFunction} />)   
 }
 
 export default SearchBar
