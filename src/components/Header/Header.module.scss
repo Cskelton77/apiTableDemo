@@ -1,11 +1,16 @@
+@use '@/styles/palette.scss';
+@use '@/styles/mixins.scss';
 
-@use '../../styles/palette.scss' as colours;
+@use '@/styles/defaultTheme.scss' as theme;
+
+$backgroundColor: theme.$header-background;
+$textColor: theme.$header-text;
 
 .header {
-    background-color: colours.$feldgrau;
-    color: colours.$white;
-    padding: 20px;
-    margin: 0 0 2px 0;
-    font-size: 30px;
+    @include mixins.usePadding();
+    background-color: $backgroundColor;
+    color: $textColor;
+    margin-bottom: 2px;
+    font-size: 24px;
     font-family: Arial, sans-serif;
 }

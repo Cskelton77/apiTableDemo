@@ -1,8 +1,10 @@
+@use '@/styles/mixins.scss';
+
 .page {
     display: flex;
     height: 85%;
     
-    @media(max-width: 600px){
+    @include mixins.forMobile {
         flex-direction: column;
     }
 

@@ -1,83 +1,85 @@
-@use '../../styles/palette.scss' as colours;
+@use '@/styles/mixins.scss';
+@use '@/styles/defaultTheme.scss' as theme;
+
+$backgroundColor: theme.$table-headerBackground;
+$textColor: theme.$table-headerText;
+$oddRow: theme.$table-oddRow;
+$evenRow: theme.$table-evenRow;
+$hoverRow: theme.$table-hoverRow;
 
 .transactionTable {
-   
    .headerArea {
         h2 {
-            padding: 15px;
+            @include mixins.usePadding();
         }
         display: flex;
         flex-direction: column;
-
     }
-    
+
     table {
         width: 100%;
         margin-top: 15px;
     }
     thead {
-        @media(max-width: 600px){
+        @include mixins.forMobile {
             display: none;
         }
-        background-color: colours.$battleshipGrey;
-        font-size: 18px;
+        background-color: $backgroundColor;
+        font-size: 14px;
         th {
-            padding: 8px;
+            @include mixins.usePadding(0.5);
+            color: $textColor;
         }
     }
     tbody {
-        @media(max-width: 600px){
+        @include mixins.forMobile {
             display: flex;
             flex-direction: column;
         }
         tr {
-            @media(max-width: 600px){
+            @include mixins.forMobile {
+                @include mixins.useUnevenPadding();
                 width: 95%;
-                margin: 10px auto;
+                margin: 8px auto;
                 box-shadow:5px 5px 4px 1px rgba(0, 0, 0, 0.2);
-                padding: 10px 0;
             }
 
             &:nth-child(odd) {
-                background-color: colours.$mintCream;
+                background-color: $oddRow;
             }
             &:nth-child(even) {
-                background-color: colours.$ashGrey;
+                background-color: $evenRow;
             }
             &:hover {
-                background-color: colours.$celadon;
+                background-color: $hoverRow;
                 cursor: pointer;
             }
             td {
                 font-size: 14px;
-                padding: 16px 8px;
-
+                @include mixins.useUnevenPadding();
                 .header { 
                     display: none;
                 }
-                &.negativeNumber {
-                    color: #f00;
-                }
 
-                @media(max-width: 600px){
+                @include mixins.forMobile {
                     display: flex;
-                    padding: 2px 0;
+                    @include mixins.usePadding(0);
 
                     .header {
+                        @include mixins.useUnevenPadding();
+
                         display: inline;
                         flex: 1;
                         text-align: right;
-                        padding: 5px 15px;
-                        color: colours.$feldgrau;
+                        color: $textColor;
+                        font-weight: bold;
                     }
                     .data {
+                        @include mixins.useUnevenPadding();
                         text-align: left;
-                        flex: 3;
-                        padding: 5px 15px ;
-                        
+                        flex: 3;                        
                     }
                 }
-
             }
         }
     }

@@ -1,0 +1,18 @@
+$breakpoints: (
+    'mobile': 640px
+);
+
+@mixin forMobile {
+    @media(max-width: map-get($breakpoints, 'mobile')) {
+        @content
+    }
+}
+
+@mixin usePadding($mult: 1) {
+    padding: #{16*$mult}px;
+}
+
+
+@mixin useUnevenPadding($topMult: 1, $bottomMult: 1) {
+    padding: #{8*$topMult}px #{16*$bottomMult}px; 
+}
