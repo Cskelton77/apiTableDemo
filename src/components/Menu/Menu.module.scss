@@ -1,29 +1,35 @@
-@use '../../styles/palette.scss' as colours;
+@use '@/styles/mixins.scss';
+
+@use '@/styles/defaultTheme.scss' as theme;
+
+$backgroundColor: theme.$menu-background;
+$textColor: theme.$menu-text;
+$hoverBackgroundColor: theme.$menu-hoverBackground;
+$hoverTextColor: theme.$menu-hoverText;
 
 .menu {
-    padding: 30px;
+    @include mixins.usePadding(2);
     flex: 1;
-    background-color: colours.$feldgrau;
+    background-color: $backgroundColor;
     min-height: 480px;
     max-width: 330px;
 
-    @media(max-width: 600px){
+    @include mixins.forMobile {
+        @include mixins.usePadding(0);
         min-height: 0;
         max-width: none;
-        padding: 0;
         display: flex;
         justify-content:space-between;
-    }
+    };
 
     li {
+        @include mixins.usePadding();
         list-style: none;
-        color: colours.$mintCream;
-        padding: 15px;
-      
+        color: $textColor;
 
         &:hover{
-            background-color: colours.$mintCream;
-            color: colours.$feldgrau;
+            background-color: $hoverBackgroundColor;
+            color: $hoverTextColor;
             cursor: pointer;
         }
     }

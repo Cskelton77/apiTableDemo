@@ -1,7 +1,15 @@
-@use '../../styles/palette.scss' as colours;
+@use '@/styles/palette.scss';
+@use '@/styles/mixins.scss';
+
+@use '@/styles/defaultTheme.scss' as theme;
+
+$backgroundColor: theme.$footer-backgroundColor;
+$fontColor: theme.$footer-text;
 
 .footer {
-    padding: 15px;
-    background-color: colours.$ashGrey;
+    @include mixins.usePadding();
+    background-color: $backgroundColor;
+    color: $fontColor;
     flex: 5;
+    margin-top: 2px;
 }

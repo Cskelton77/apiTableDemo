@@ -1,0 +1,19 @@
+
+@use '@/styles/palette.scss';
+
+$header-background: palette.$feldgrau;
+$header-text: palette.$white;
+
+$menu-background: palette.$feldgrau;
+$menu-text: palette.$mintCream;
+$menu-hoverBackground: $menu-text;
+$menu-hoverText: $menu-background;
+
+$table-headerBackground: palette.$battleshipGrey;
+$table-headerText: palette.$black;
+$table-oddRow: palette.$mintCream;
+$table-evenRow: palette.$ashGrey;
+$table-hoverRow: palette.$celadon;
+
+$footer-backgroundColor: palette.$feldgrau;
+$footer-text: palette.$white;
